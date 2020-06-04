@@ -21,12 +21,48 @@ app.get('/', (req, res)=>{
     res.render('index');
 });
 
+app.get('/home', (req, res)=>{
+    res.render('./pages/home', {
+        autor:'Marina Santa Anna Gaytán - 4°E',
+        year: new Date().getFullYear(),
+        title:'Grandes Printores'
+    });
+});
+
 app.get('/felguerez', (req, res)=>{
     res.render('./pages/Manuel-Felguerez', {
         autor:'Marina Santa Anna Gaytán - 4°E',
         year: new Date().getFullYear(),
         title:'Manuel Felguerez'
     });
+});
+
+app.get('/afremov', (req, res)=>{
+    res.render('./pages/Leonid-Afremov', {
+        autor:'Marina Santa Anna Gaytán - 4°E',
+        year: new Date().getFullYear(),
+        title:'Leonid Afremov'
+    });
+});
+
+app.get('/gerome', (req, res)=>{
+    res.render('./pages/Jean-Leon-Gerome', {
+        autor:'Marina Santa Anna Gaytán - 4°E',
+        year: new Date().getFullYear(),
+        title:'Jean Leon Gerome'
+    });
+});
+
+app.get('/bazan', (req, res)=>{
+    res.render('./pages/Carlos-Bazan', {
+        autor:'Marina Santa Anna Gaytán - 4°E',
+        year: new Date().getFullYear(),
+        title:'Carlos Bazan'
+    });
+});
+
+app.get('/sobremi', (req, res)=>{
+    res.render('./pages/sobremi');
 });
 
 /*La conexión con MongoDB*/
