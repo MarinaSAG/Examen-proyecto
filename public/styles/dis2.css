@@ -1,0 +1,46 @@
+@font-face{
+    font-family: outside;
+    src: url(../fonts/outside.ttf);
+  }
+  @font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat.ttf);
+  }
+  @font-face{
+    font-family: flotta;
+    src: url(../fonts/FLOTTA.otf);
+  }
+  
+  body{
+    background-image: url(../images/fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(179, 179, 179);
+  }
+  
+  .titulo{
+    font-family: outside;
+    background-color: rgba(0, 12, 124, 0.7);
+    color: rgb(255, 240, 106);
+    font-size: 8em;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    font-style: bold;
+  }
+  
+  .texto{
+    font-family: montserrat;
+    background-color: rgba(110, 0, 28, 0.7);
+    font-size: 1.5rem;
+    padding: 2em;
+    margin: 50px;
+    color: white;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }

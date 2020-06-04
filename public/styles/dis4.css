@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face{
+  font-family: flotta;
+  src: url(../fonts/FLOTTA.otf);
+}
+
+h2{
+  color: white;
+  font-family: flotta;
+  font-size: 80px;
+}
+
+h2{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background-image: url(../images/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(179, 179, 179);
+}
+
