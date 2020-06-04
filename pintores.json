@@ -1,0 +1,37 @@
+[
+    {
+    "name":"Manuel",
+    "lastn":"Felguerez",
+    "nacionalidad":"Maxicano",
+    "corriente":"Arte Abstracto",
+    "painting":"PinturaMF.jpg"
+    },
+    {
+    "name":"Leonid",
+    "lastn":"Afremov",
+    "nacionalidad":"Israelí",
+    "corriente":"Impresionismo",
+    "painting":"PinturaLA.jpg"
+    },
+    {
+    "name":"Jean Leon",
+    "lastn":"Gerome",
+    "nacionalidad":"Francesa",
+    "corriente":"Orientalismo",
+    "painting":"PinturaJLG.jpg"
+    },
+    {
+    "name":"Carlos",
+    "lastn":"Bazán",
+    "nacionalidad":"Mexicano",
+    "corriente":"Realismo Mágico",
+    "painting":"PinturaCB.jpg"
+    },
+    {
+    "name":"Marina",
+    "lastn":"Santa Anna Gaytán",
+    "nacionalidad":"Mexicano",
+    "corriente":"Color Parcial",
+    "painting":"PinturaMSAG.jpg"
+    }
+]
