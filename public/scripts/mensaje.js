@@ -1,0 +1,1 @@
+alert('Привет! Bienvenido a mi página');
